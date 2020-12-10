@@ -1,0 +1,18 @@
+datadir: /oasis/data
+
+log:
+  level:
+    default: info
+    tendermint: info
+    tendermint/context: error
+  format: JSON
+
+genesis:
+  file: /oasis/genesis.json
+
+consensus:
+  tendermint:
+    p2p:
+      seed:
+        - E27F6B7A350B4CC2B48A6CBE94B0A02B0DCB0BF3@35.199.49.168:26656
+
